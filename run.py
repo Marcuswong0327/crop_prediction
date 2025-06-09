@@ -88,7 +88,7 @@ def load_resources():
     soil_le = joblib.load('Soil type_le.pkl')
     irrigation_le = joblib.load('Irrigation_le.pkl')
     crop_le = joblib.load('Crops_le.pkl')
-    season_le = joblib.load('season_le.pkl')
+    season_le = joblib.load('Season_le.pkl')
     model = joblib.load('best_model.pkl')  # Must be trained with this exact input order
     return soil_le, irrigation_le, crop_le, season_le, model
 
